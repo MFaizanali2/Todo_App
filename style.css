@@ -71,6 +71,7 @@ ul li{
     color: #555;
     font-weight: bolder;
     user-select: none;
+
 }
 /* ul li::before{
     content: "";

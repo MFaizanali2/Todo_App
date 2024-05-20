@@ -14,7 +14,9 @@ function addtask(){
         
         const newele = document.createElement("li");
         let date = new Date().toLocaleDateString();
-        newele.innerHTML = `${inputbox.value} ${date} <i class="fa-solid fa-trash"></i>`;
+        // let hours = gethour().toLocaleDateString();
+        // let min = getMinutes().toLocaleDateString();
+        newele.innerHTML = `${inputbox.value} ${date}  <i class="fa-solid fa-trash"></i>`;
         taskbox.appendChild(newele);
         inputbox.value = "";
         newele.querySelector("i").addEventListener("click", remove);
