@@ -31,10 +31,10 @@ function addtask(){
     
 }
 
-function clear(){
-    const inputbox = document.getElementById("input");
-    inputbox.value = "";
-}
+// function clear(){
+//     const inputbox = document.getElementById("input");
+//     inputbox.value = "";
+// }
 
 // let li = document.createElement("li");
 //         li.innerHTML = inputbox.value;
